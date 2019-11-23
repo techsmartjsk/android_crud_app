@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/interests"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="222dp"
+            android:layout_marginEnd="115dp">
+
+</EditText>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="62dp"
+            android:layout_marginTop="236dp"
+            android:text="interests"
+            android:textSize="20sp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/location"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="163dp"
+            android:layout_marginEnd="121dp">
+
+</EditText>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="179dp"
+            android:text="location"
+            android:textSize="20sp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="106dp"
+            android:layout_marginEnd="102dp">
+
+</EditText>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="91dp"
+            android:layout_marginTop="123dp"
+            android:text="ID"
+            android:textSize="20sp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="106dp">
+
+</EditText>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="67dp"
+            android:layout_marginTop="71dp"
+            android:text="Name"
+            android:textSize="20sp">
+
+    </TextView>
+
+    <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginBottom="374dp"
+            android:text="Add" />
+
+    <Button
+            android:id="@+id/view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="307dp"
+            android:layout_marginEnd="68dp"
+            android:text="View">
+
+
+    </Button>
+
+    <Button
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginBottom="285dp"
+            android:text="Delete">
+
+
+    </Button>
+
+    <Button
+            android:id="@+id/update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="64dp"
+            android:layout_marginBottom="287dp"
+            android:text="Update">
+
+
+    </Button>
+
+</RelativeLayout>
